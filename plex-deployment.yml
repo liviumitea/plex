@@ -31,12 +31,12 @@ spec:
           type: Directory
       containers:
       - env:                       # < environment variables. See https://hub.docker.com/r/linuxserver/plex
-        # - name: PLEX_CLAIM
-        #   value: claim-XwVPsHsaakdfaq66tha9
+        - name: PLEX_CLAIM
+          value: claim-mUSk_1Vfv5nhb-6i2Kqa
         - name: PGID
-          value: "\x31\x30\x30"    # < ASCII code for '100'
+          value: "1001"    # < ASCII code for '100'
         - name: PUID
-          value: "\x31\x30\x33\x35" # < ACII code for '1035'
+          value: "1001" # < ACII code for '1035'
         - name: VERSION
           value: latest
         - name: TZ
