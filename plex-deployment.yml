@@ -33,10 +33,10 @@ spec:
       - env:                       # < environment variables. See https://hub.docker.com/r/linuxserver/plex
         # - name: PLEX_CLAIM
         #   value: claim-XwVPsHsaakdfaq66tha9
-        # - name: PGID
-        #   value: "\x31\x30\x30"    # < ASCII code for '100'
-        # - name: PUID
-        #   value: "\x31\x30\x33\x35" # < ACII code for '1035'
+        - name: PGID
+          value: "\x31\x30\x30"    # < ASCII code for '100'
+        - name: PUID
+          value: "\x31\x30\x33\x35" # < ACII code for '1035'
         - name: VERSION
           value: latest
         - name: TZ
