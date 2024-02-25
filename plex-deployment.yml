@@ -41,7 +41,7 @@ spec:
           value: latest
         - name: TZ
           value: Europe/Bucharest  # < Timezone
-        image: plexinc/pms-docker   # < the name of the docker image we will use
+        image: lscr.io/linuxserver/plex:latest  # < the name of the docker image we will use
         imagePullPolicy: Always    # < always use the latest image when creating container/pod
         name: plexserver           # < name of container
         ports:
