@@ -13,4 +13,4 @@ spec:
   csi:
     driver: driver.longhorn.io
     fsType: ext4
-    volumeHandle: plex-pv
+    volumeHandle: plex-config-pv
