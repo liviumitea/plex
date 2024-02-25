@@ -28,7 +28,7 @@ spec:
       - name: nfs-data
         hostPath:
           path: /data-nfs/plex
-          type: Director
+          type: Directory
       containers:
       - env:                       # < environment variables. See https://hub.docker.com/r/linuxserver/plex
         # - name: PLEX_CLAIM
